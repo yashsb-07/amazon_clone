@@ -141,11 +141,23 @@ body {
     transform: scale(1.03);
 }
 
-.footer {
+.footer-top {
+    background-color: #37475a;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.footer-top:hover {
+    background-color: #485769;
+}
+
+.footer-bottom {
     background-color: #131921;
     color: white;
     text-align: center;
-    padding: 15px;
+    padding: 20px;
 }
 
 @media (max-width: 768px) {
