@@ -73,3 +73,10 @@
 .card img {
     width: 100%;
 }
+
+.footer {
+    background-color: #131921;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
