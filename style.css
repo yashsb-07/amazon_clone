@@ -80,3 +80,13 @@
     text-align: center;
     padding: 15px;
 }
+
+@media (max-width: 768px) {
+    .products {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .nav-search {
+        width: 100%;
+    }
+}
