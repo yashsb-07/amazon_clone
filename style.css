@@ -9,6 +9,11 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: #e3e6e6; 
+}
+
+.page-wrapper {
+    flex: 1;
 }
 
 .navbar {
@@ -55,7 +60,6 @@ body {
     cursor: pointer;
 }
 
-/* Hover Effect */
 .nav-search button:hover {
     background-color: #f3a847;
 }
@@ -111,7 +115,8 @@ body {
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     padding: 20px;
-    margin-top: -150px; 
+    max-width: 1200px;
+    margin: 20px auto; 
 }
 
 .card {
