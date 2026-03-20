@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    transition: all 0.2s ease-in-out;
 }
 
 body {
@@ -191,9 +192,9 @@ body {
     background-color: #232f3e;
     color: white;
     display: flex;
-    justify-content: space-around;
-    padding: 40px 20px;
-    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 50px 20px;
+    /* flex-wrap: wrap; */
 }
 
 .footer-column {
@@ -201,15 +202,14 @@ body {
 }
 
 .footer-column h4 {
-    margin-bottom: 10px;
-    font-size: 16px;
+    margin-bottom: 15px;
+    font-size: 15px;
 }
 
 .footer-column p {
-    font-size: 14px;
-    margin: 6px 0;
-    cursor: pointer;
-    color: #dddddd;
+    font-size: 13px;
+    margin: 8px 0;
+    color: #cccccc;
 }
 
 .footer-column p:hover {
