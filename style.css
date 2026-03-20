@@ -14,6 +14,8 @@ body {
 
 .page-wrapper {
     flex: 1;
+    max-width: 1400px;
+    margin: auto;
 }
 
 .navbar {
@@ -23,6 +25,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
+    height: 60px;
 }
 
 .nav-logo h2 {
@@ -71,11 +74,15 @@ body {
 
 .nav-links div {
     cursor: pointer;
+    padding: 5px 8px;
+    border-radius: 3px;
+    transition: 0.2s;
 }
 
 .nav-links div:hover {
     border: 1px solid white;
     padding: 5px;
+    background-color: rgba(255,255,255,0.1);
 }
 
 .sub-navbar {
@@ -96,18 +103,28 @@ body {
 
 .hero {
     background-image: url("https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da");
-    height: 350px;
+    height: 400px;
     background-size: cover;
+    background-position: center;
     position: relative;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, transparent, #e3e6e6);
 }
 
 .hero-content {
     background: white;
-    padding: 10px;
+    padding: 12px 20px;
     position: absolute;
-    bottom: 20px;
+    bottom: 30px;
     left: 50%;
     transform: translateX(-50%);
+    border-radius: 5px;
+    font-size: 14px;
 }
 
 .products {
