@@ -10,13 +10,17 @@ function displayCart() {
         totalPrice += priceNumber;
 
         cartContainer.innerHTML += `
-            <div class="product-box">
+        <div class="cart-item">
+            <img src="${item.image}">
+            
+            <div class="cart-details">
                 <h3>${item.name}</h3>
-                <img src="${item.image}">
                 <p class="price">${item.price}</p>
-                <button onclick="removeItem(${index})">Remove</button>
             </div>
-        `;
+
+            <button class="remove-btn" onclick="removeItem(${index})">Remove</button>
+        </div>
+    `;
     });
 
     document.getElementById("total-price").innerText = totalPrice;
