@@ -111,9 +111,10 @@ body {
 }
 
 .add-to-cart {
+    margin-top: auto;
     background-color: #ffd814;
     border: none;
-    padding: 8px;
+    padding: 10px;
     border-radius: 20px;
     cursor: pointer;
     font-weight: 500;
@@ -204,10 +205,10 @@ button:hover {
     background: white;
     padding: 15px;
     border-radius: 8px;
-    height: 320px;
+    height: 360px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 .product-box img {
@@ -215,6 +216,16 @@ button:hover {
     height: 180px;
     object-fit: cover;
     margin: 10px 0;
+}
+
+.product-box .price {
+    margin: 5px 0;
+    font-weight: 500;
+}
+
+.product-box h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
 }
 
 .product-box a {
