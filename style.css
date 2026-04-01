@@ -91,6 +91,19 @@ body {
     background-color: #f7ca00;
 }
 
+button {
+    background-color: #ffd814;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #f7ca00;
+}
+
 .cart span {
     background: orange;
     color: black;
