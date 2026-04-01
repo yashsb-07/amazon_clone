@@ -98,7 +98,7 @@ body {
 
 .nav-links div {
     cursor: pointer;
-    padding: 5px;
+    /* padding: 5px; */
 }
 
 .nav-links div:hover {
@@ -157,7 +157,7 @@ button:hover {
 
 .sub-navbar p:hover {
     border: 1px solid white;
-    padding: 3px 6px;
+    /* padding: 3px 6px; */
 }
 
 /* HERO */
