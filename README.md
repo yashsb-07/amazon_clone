@@ -51,15 +51,15 @@ amazon-clone/
 
 ### Homepage
 
-(Add screenshot here)
+![alt text](images/home.png)
 
 ### Cart Page
 
-(Add screenshot here)
+![alt text](images/cart.png)
 
 ### Login Page
 
-(Add screenshot here)
+![alt text](images/login.png)
 
 ---
 
