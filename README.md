@@ -5,6 +5,10 @@ The project simulates a real e-commerce website with cart functionality, login/s
 
 ---
 
+## 🌐 Live Website
+
+https://yashsb-07.github.io/amazon_clone/
+
 ## 🚀 Features
 
 * Amazon-style Homepage UI
