@@ -82,7 +82,7 @@ amazon-clone/
 ## 👨‍💻 Author
 
 **Yash Bansode**
-MCA Student | Python Full Stack Developer
+BCA Student | Python Full Stack Developer
 
 ---
 
