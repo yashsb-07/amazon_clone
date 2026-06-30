@@ -1,3 +1,4 @@
+// signup function
 function signup() {
     let name = document.getElementById("name").value;
     let email = document.getElementById("email").value;
@@ -14,6 +15,7 @@ function signup() {
     window.location.href = "login.html";
 }
 
+// login function
 function login() {
     let email = document.getElementById("email").value;
     let password = document.getElementById("password").value;
